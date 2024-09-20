@@ -42,13 +42,20 @@
             fontFamily: {
               raleway: "Raleway",
             },
+            backgroundImage: {
+              gradientBanner:
+                "linear-gradient(to bottom, rgba(3, 7, 18, 0.5), rgba(255, 255, 255, 0)), url('./images/banner.png')",
+            },
           },
         },
       };
     </script>
   </head>
   <body>
+    <!-- header section starts here -->
+
     <header class="w-11/12 mx-auto">
+      <!-- nav section -->
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -102,7 +109,29 @@
           </div>
         </div>
       </nav>
+      <!--banner section  -->
+      <div
+        class="bg-gradientBanner bg-center bg-no-repeat bg-cover flex justify-center pb-32 pt-16 items-center flex-col rounded-3xl"
+      >
+        <h1
+          class="font-extrabold text-6xl font-Raleway text-white text-center leading-[86px]"
+        >
+          End-to-End Travel with <br /><span class="text-primary"
+            >P Paribahan</span
+          >
+        </h1>
+        <p class="text-lg font-normal text-center pt-4 pb-8 text-white">
+          Yes, you can run unit tests and view the results directly within the
+          app. The <br />integrated testing features allow for a streamlined .
+        </p>
+        <button
+          class="btn bg-primary hover:bg-primary text-xl font-bold hover:border-none border-none"
+        >
+          Buy Tickets
+        </button>
+      </div>
     </header>
+    <!-- header section ends here -->
     <main></main>
     <footer></footer>
   </body>
