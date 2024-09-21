@@ -132,7 +132,9 @@
         </a>
       </div>
       <!-- stats section -->
-      <div class="grid grid-cols-3 gap-6 w-4/5 mx-auto z-10 relative -top-16">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-3 gap-6 w-4/5 mx-auto z-10 relative -top-16"
+      >
         <div
           class="flex items-center border-b-2 border-primary bg-white p-10 rounded-3xl gap-3"
         >
@@ -170,7 +172,7 @@
           Best offers for you
         </h2>
 
-        <div class="flex gap-6 justify-center mb-16">
+        <div class="flex flex-col lg:flex-row gap-6 justify-center mb-16">
           <div class="flex bg-secondary rounded-3xl">
             <div class="p-12 flex flex-col justify-center text-left">
               <h4 class="font-black text-3xl">15% OFF</h4>
@@ -234,9 +236,11 @@
             app. The integrated <br />
             testing features allow for a streamlined .
           </p>
-          <div class="grid grid-cols-4 bg-white rounded-3xl">
+          <div class="grid grid-cols-1 lg:grid-cols-4 bg-white rounded-3xl">
             <div class="col-span-3 p-8">
-              <div class="flex justify-between items-center">
+              <div
+                class="flex lg:flex-row flex-col justify-between items-center"
+              >
                 <div class="flex gap-2">
                   <img src="images/bus-logo.png" alt="" />
                   <div>
@@ -265,7 +269,7 @@
                   <p>Departure Time</p>
                   <p class="font-semibold">9:00 PM</p>
                 </div>
-                <div class="flex justify-between mt-6">
+                <div class="flex lg:flex-row flex-col justify-between mt-6">
                   <button class="btn bg-[#0307120D]">
                     Boarding Point - Laxmipur
                   </button>
@@ -295,7 +299,7 @@
       <!-- select your seat section starts here -->
       <section class="bg-[#F7F8F8] pt-28 pb-28">
         <div class="w-11/12 mx-auto bg-white p-8 rounded-3xl">
-          <div class="mt-6 grid grid-cols-3">
+          <div class="mt-6 grid grid-cols-1 lg:grid-cols-3">
             <div class="col-span-2">
               <h3 class="font-semibold text-2xl">Select Your Seat</h3>
               <div class="border-b-2 border-dashed mb-4 pt-10"></div>
@@ -329,22 +333,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>A</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     A1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     A2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     A3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     A4
@@ -354,22 +362,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>B</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     B1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     B2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     B3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     B4
@@ -379,22 +391,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>C</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     C1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     C2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     C3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     C4
@@ -404,22 +420,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>D</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     D1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     D2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     D3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     D4
@@ -429,22 +449,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>E</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     E1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     E2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     E3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     E4
@@ -454,22 +478,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>F</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     F1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     F2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     F3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     F4
@@ -479,22 +507,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>G</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     G1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     G2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     G3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     G4
@@ -504,22 +536,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>H</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     H1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     H2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     H3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     H4
@@ -529,22 +565,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>I</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     I1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     I2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     I3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     I4
@@ -554,22 +594,26 @@
                 <div class="grid grid-cols-10 gap-8 items-center mt-6">
                   <p>J</p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     J1
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     J2
                   </button>
                   <p></p>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     J3
                   </button>
                   <button
+                    onclick="handleSelectSeat(this)"
                     class="col-span-2 btn bg-[#F7F8F8] flex items-center justify-center"
                   >
                     J4
@@ -577,47 +621,68 @@
                 </div>
               </div>
             </div>
-            <div class="border-l-2 border-dashed ml-8 pl-8">
-              <h2 class="font-semibold text-2xl">Select Your Seat</h2>
+            <div class="lg:border-l-2 border-dashed lg:ml-8 lg:pl-8">
+              <h2 class="font-semibold text-2xl mt-8 lg:mt-0">
+                Select Your Seat
+              </h2>
               <div class="border-b-2 border-dashed mb-4 pt-10"></div>
 
               <div class="bg-[#F7F8F8] p-8 rounded-3xl">
                 <div id="seat-container">
                   <div class="flex justify-between">
                     <p>
-                      Seat<span
-                        id="selected-seat-count"
+                      Seat<sup
+                        id="total-booked"
                         class="px-1 rounded-full bg-primary text-white"
-                        >0</span
+                        >0</sup
                       >
                     </p>
                     <p>Class</p>
                     <p>Price</p>
                   </div>
                   <div class="border-b-2 border-dashed mb-2 pt-2"></div>
+
+                  <ul id="selected-seat" class="space-y-5">
+                    <h3
+                      id="default-text"
+                      class="text-3xl text-error text-center capitalize font-semibold"
+                    >
+                      No seat booked
+                    </h3>
+                  </ul>
                 </div>
                 <div class="divider"></div>
                 <div class="flex justify-between">
                   <p class="font-bold text-lg">Total Price</p>
-                  <p class="font-bold text-lg">BDT <span>0</span></p>
+                  <p class="font-bold text-lg">
+                    BDT <span id="total-price">0</span>
+                  </p>
                 </div>
-
-                <label
-                  class="input input-bordered flex items-center gap-2 mt-4"
-                >
-                  <input
-                    type="text"
-                    class="grow"
-                    placeholder="Have any coupon?"
-                  />
-                  <span
-                    class="btn bg-primary text-white py-2 h-auto min-h-0 px-4"
-                    >Apply</span
+                <div id="coupon-section">
+                  <label
+                    class="input input-bordered flex items-center gap-2 mt-4"
                   >
-                </label>
+                    <input
+                      type="text"
+                      id="coupon-input"
+                      class="grow"
+                      placeholder="Have any coupon?"
+                      disabled
+                    />
+                    <button
+                      id="coupon-btn"
+                      class="btn bg-primary text-white py-2 h-auto min-h-0 px-4"
+                      disabled
+                    >
+                      Apply
+                    </button>
+                  </label>
+                </div>
                 <div class="flex justify-between mt-4">
                   <p class="font-bold text-lg">Grand Total</p>
-                  <p class="font-bold text-lg">BDT <span>0</span></p>
+                  <p class="font-bold text-lg">
+                    BDT <span id="grand-total">0</span>
+                  </p>
                 </div>
               </div>
               <div>
@@ -628,9 +693,11 @@
                     </label>
                     <input
                       type="text"
+                      id="name-input"
                       placeholder="Enter your name"
                       class="input input-bordered"
                       required
+                      disabled
                     />
                   </div>
                   <div class="form-control">
@@ -639,9 +706,11 @@
                     </label>
                     <input
                       type="text"
+                      id="phone-number"
                       placeholder="Enter your phone number"
                       class="input input-bordered"
                       required
+                      disabled
                     />
                   </div>
                   <div class="form-control">
@@ -650,15 +719,43 @@
                     </label>
                     <input
                       type="email"
+                      id="email-input"
                       placeholder="Enter your email id"
                       class="input input-bordered"
+                      disabled
                     />
                   </div>
 
                   <div class="form-control mt-6">
-                    <button class="btn text-white hover:bg-primary bg-primary">
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button
+                      id="next-btn"
+                      class="btn bg-primary text-white"
+                      onclick="my_modal_1.showModal()"
+                      disabled
+                    >
                       Next
                     </button>
+                    <dialog id="my_modal_1" class="modal">
+                      <div class="modal-box">
+                        <h3 class="text-lg text-center font-bold text-primary">
+                          Congratulation
+                        </h3>
+                        <p class="py-4 text-primary text-center">
+                          Your seats are confirmed
+                        </p>
+                        <div class="modal-action">
+                          <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <div class="text-center mx-auto">
+                              <button class="btn bg-primary" id="modal-close">
+                                Close
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </dialog>
                   </div>
                 </form>
               </div>
