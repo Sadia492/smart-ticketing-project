@@ -14,7 +14,7 @@ const nextBtn = document.getElementById("next-btn");
 let totalPrice = 0;
 
 let selectedSeat = [];
-// seat funtion
+// seat function
 function handleSelectSeat(event) {
   // condition for not adding same button twice
   if (selectedSeat.includes(event.innerText)) {
